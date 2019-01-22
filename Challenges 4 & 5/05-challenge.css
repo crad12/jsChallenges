@@ -1,0 +1,16 @@
+form {
+    border: solid 1px blue;
+    padding: 1rem;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+
+#result {
+    border: solid 1px blue;
+    padding: 1rem;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+
