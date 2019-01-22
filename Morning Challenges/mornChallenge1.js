@@ -54,3 +54,38 @@ console.log(`${(color[i])} is ${(place[i])}` )
 
 
 
+
+
+/*
+Challenge (Objects):
+
+Create a function that takes in an object
+
+In the function, check if the object contains a specific key/value pair and return a boolean answer
+
+Example: 
+
+exampleObj = {
+  color: 'green',
+  smashes: true,
+  name: 'Hulk'
+}
+
+checks for color has the value of 'green'
+
+output: true
+*/
+
+
+let key1 = "color";           //This isn't finished//
+let key2 = "green"
+function checkForProperty(obj,key,prop) {
+   objects.keys(obj).forEach(i => {
+      if (i === key) {
+         if(obj[i] === prop) {
+            console.log(true);
+         }
+      }
+   })
+}
+checkForProperty(exampleObj, key1, obj);
